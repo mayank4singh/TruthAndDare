@@ -23,17 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         img = findViewById(R.id.imageView);
         btn=findViewById(R.id.button);
-
-
     }
-
-
-
-
-
-
-
-
     public void Spin(View view) {
         NewDirection = random.nextInt();
         float pivoitx = img.getWidth()/2;
